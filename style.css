@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background-color: #27296d;
+    color: white;
+    font-size: 30px;
+    font-family: Bitcount Grid Double;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.game {
+    height: 85%;
+    padding-left: 40px;
+}
+
+.title {
+    text-shadow: 5px 3px #5e63b6;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.move-icon {
+    height: 60px;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.player-choice {
+    width: 85%;
+    height: 120px;
+    border: 6px solid #5e63b6;
+    background-color: transparent;
+    border-radius: 40px;
+    cursor: pointer;
+
+    &:hover {
+        border: 6px solid #a393eb;
+        box-shadow: 0 0 10px #a393eb;
+        transition: 200ms ease-out;
+    }
+}
+
+.js-result {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.js-score {
+    margin-top: 60px;
+}
+
+.reset-button, .auto-play-button {
+    font-family: Bitcount Grid Double;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.confirmation-message {
+    font-size: 20px;
+}
+
+.yes-button, .no-button {
+    font-family: Bitcount Grid Double;
+    font-size: 20px;
+    cursor: pointer;
+}

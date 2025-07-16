@@ -6,15 +6,15 @@ This version includes autoplay, keyboard shortcuts, score saving with `localStor
 
 ## 🚀 Features
 
-- ✅ Play vs. computer (with logic for rock/paper/scissors outcomes)
-- 🔄 **Autoplay mode** – automatic rounds every 1 second
-- 💾 **Persistent score** using `localStorage` (keeps track of wins, losses, ties)
-- ⌨️ **Keyboard controls**:
+- Play vs. computer (with logic for rock/paper/scissors outcomes)
+- **Autoplay mode** – automatic rounds every 1 second
+- **Persistent score** using `localStorage` (keeps track of wins, losses, ties)
+- **Keyboard controls**:
   - `r`, `p`, `s` for Rock, Paper, Scissors
   - `a` to toggle autoplay
   - `Backspace` to reset score
-- 🧹 **Reset confirmation popup** before clearing score
-- 📱 Basic responsive design and game UI
+- **Reset confirmation popup** before clearing score
+- Basic responsive design and game UI
 
 ## 🛠️ Technologies Used
 

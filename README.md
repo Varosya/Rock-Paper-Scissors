@@ -36,5 +36,4 @@ This version includes autoplay, keyboard shortcuts, score saving with `localStor
 
 ## 🖼️ Screenshot
 
-```html
-<img width="866" height="719" alt="screenshot" src="https://github.com/user-attachments/assets/70b99000-0618-4215-9e6e-62fb6a08db8d" />
+![App screenshot](./assets/Screenshot.png)

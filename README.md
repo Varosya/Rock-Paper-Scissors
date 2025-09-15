@@ -34,6 +34,10 @@ This version includes autoplay, keyboard shortcuts, score saving with `localStor
 4. Press `a` or click "Auto Play" to let the computer play automatically.
 5. Press `Backspace` or click "Reset" to clear your score (with confirmation).
 
+## 🌐 Live Demo
+
+[View live demo](https://varosya.github.io/rock-paper-scissors/)
+
 ## 🖼️ Screenshot
 
 ![App screenshot](./images/screenshot.png)
